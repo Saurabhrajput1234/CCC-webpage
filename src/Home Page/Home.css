@@ -1,0 +1,102 @@
+#first-part {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#heading {
+  font-weight: 500;
+  font-size: 10vh;
+  margin-top: 15vh;
+  margin-left: 3vw;
+}
+
+#illustration {
+  margin-top: 8vh;
+  height: 570px;
+}
+
+.inline {
+  color: #007dfe;
+}
+
+#moto {
+  font-weight: 500;
+  font-size: 5vh;
+  margin-left: 3vw;
+  margin-top: 4vh;
+}
+
+#head {
+  margin-top: 10vh;
+}
+
+.title {
+  height: 75px;
+  margin-top: 10vh;
+  text-align: center;
+  font-weight: 500;
+  font-size: 8vh;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+}
+
+#teampic {
+  width: 650px;
+  height: 400px;
+  margin-left: 6vw;
+  margin-top: 10vh;
+}
+.content {
+  width: 800px;
+  height: 432px;
+  font-size: 4vh;
+  margin-left: 3vw;
+  margin-top: 10vh;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.domain_pic {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12vh;
+  justify-content: space-around;
+  margin-left: 2vw;
+}
+
+.domain_name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #007dfe;
+  font-weight: 580;
+  font-size: 3vh;
+}
+
+.domain_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -1vw;
+  /* padding-left: 3vw;
+    padding-right: 3vw; */
+  width: 290px;
+  height: 144px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+#what-we-do {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.domain_pic:hover{
+  transform: translateY(-0.5%);
+  filter: drop-shadow(0px 18px 25px rgba(0, 0, 0, 0.25));
+  
+}

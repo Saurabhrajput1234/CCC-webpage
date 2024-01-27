@@ -1,0 +1,252 @@
+/*<-------------Navbar--------------->*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+.logo {
+  font-size: 30px;
+  margin-left: 3vh;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .display-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu {
+  padding: 0 15px;
+  text-decoration: none;
+  font-size: 3vh;
+  color: black;
+  margin-right: 1vw;
+}
+
+#name {
+  color: black;
+  font-size: larger;
+  margin-top: 1vh;
+  font-weight: 500;
+  margin-left: 1vw;
+}
+
+/*<---------------TeamCard---------------->*/
+#cards-design {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 4.6vw;
+  margin-right: 4.6vw; 
+}
+.card {
+  width: 255px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 8px solid #fff;
+  position: relative;
+  margin-top: 6vh;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+.card:hover .card-body {
+  right: 0;
+}
+.card-title {
+  text-transform: uppercase;
+  font-size: 4vh;
+  text-align: center;
+  font-weight: 500;
+}
+
+.card-sub-title {
+  text-transform: capitalize;
+  font-size: 2vh;
+  text-align: center;
+  font-weight: 300;
+}
+
+.card-info {
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.card-btn {
+  color: #1f3d47;
+  background: #8fabba;
+  padding: 10px 20px;
+  width: 50px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/*<-----------------Register----------------->*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 5rem;
+  
+}
+
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(189, 189, 189, 0.9);
+
+}
+
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 30rem;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+h2 {
+  color: #007dfe;
+  font-size: 6vh;
+  text-align: center;
+}
+
+#text {
+  font-size: 4vh;
+  color: black;
+  text-align: center;
+}
+
+.model-btn {
+  color: white;
+  background-color: #007dfe;
+  height: 5.6vh;
+  width: 9vw;
+  margin-left: 7vw;
+  border-radius: 0.5vw;
+}
+
+/*<-----------------Contact Us----------------->*/
+
+#title-cont {
+  text-align: center;
+  font-weight: 500;
+  font-size: 8vh;
+}
+
+.modal-contain {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ margin: 0;
+ padding: 0;
+  border-radius: 0.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  width: 30vw;
+}
+
+#btn-cont{
+    width:30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  #btn-cont span {
+    font-weight: 500;
+    font-size: 1.2vw;
+    margin: 2vw 3vw;
+    width: 104px;
+    height: 44px;
+    border-radius: 0.2vw;
+    text-align: center;
+    padding: 0.5vw 1vw;
+    cursor: pointer;
+  
+  }
+
+  #btn-1{
+    color: white;
+    background-color: #007dfe;
+  }
+
+  #btn-2{
+    border: 1px solid #007dfe ;
+
+  }
+
+  .inp_ut, .inp_ut input  {
+    width: 25vw;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+  .valid{
+    margin-bottom: 2vh;
+    color:red;
+    font-family: 'Manrope';
+    visibility: hidden;
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+.year-title{
+    text-align: left;
+    font-size: 4vh;
+    font-weight: 600;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+
+
+#head_ing{
+    font-weight: 500;
+    font-size: 6vh;
+    margin-top: 15vh;
+    margin-left: 3vw;
+}
+
+#fam{
+    font-size: 12vh;
+    margin-left: 3vw;
+}
+
+#fam-part{
+    display: flex;
+    flex-direction: row;
+}
